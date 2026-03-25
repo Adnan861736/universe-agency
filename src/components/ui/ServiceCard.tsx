@@ -68,8 +68,9 @@ export function ServiceCard({ title, description, images, icon, accentGradient }
             <Image
               src={images[activeIdx]}
               alt={`${title} ${activeIdx + 1}`}
-              fill
-              className="object-cover"
+              width={600}
+              height={400}
+              style={{ width: '100%', height: '100%', objectFit: 'cover' }}
               draggable={false}
               unoptimized
             />
