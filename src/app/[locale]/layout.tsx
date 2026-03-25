@@ -12,9 +12,7 @@ export const metadata: Metadata = {
   description:
     'UniVerse is a full-service digital agency specializing in app design, web design, hosting, and visual identity.',
   keywords: ['digital agency', 'web design', 'app design', 'branding', 'hosting'],
-  icons: {
-    icon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='16' fill='%238b5cf6'/><text x='16' y='21' font-size='16' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'>U</text></svg>",
-  },
+  icons: { icon: '/favicon.svg' },
   openGraph: {
     title: 'UniVerse Agency',
     description: 'We build digital universes.',
