@@ -1,0 +1,132 @@
+{
+  "nav": {
+    "logo": "UniVerse",
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "langSwitch": "AR"
+  },
+  "hero": {
+    "badge": "Digital Innovation Agency",
+    "title": "We Build Digital",
+    "titleHighlight": "Universes",
+    "subtitle": "We craft immersive digital experiences that launch brands into orbit. From stunning app designs to powerful web solutions — we turn your vision into a cosmic reality.",
+    "ctaPrimary": "Explore Our Work",
+    "ctaSecondary": "Get In Touch"
+  },
+  "services": {
+    "title": "What We Do",
+    "subtitle": "We offer end-to-end digital solutions that transform businesses and elevate user experiences to new heights.",
+    "items": [
+      {
+        "id": "app-design",
+        "title": "App Design",
+        "description": "Stunning mobile interfaces that captivate users from the first tap. We design iOS and Android experiences that blend beauty with intuitive functionality.",
+        "images": [
+          "/images/services/app-design-1.jpg",
+          "/images/services/app-design-2.jpg",
+          "/images/services/app-design-3.jpg",
+          "/images/services/app-design-4.jpg",
+          "/images/services/app-design-5.jpg"
+        ]
+      },
+      {
+        "id": "web-design",
+        "title": "Web Design",
+        "description": "Pixel-perfect websites that combine beautiful aesthetics with seamless performance. We build responsive, fast-loading sites that convert visitors into clients.",
+        "images": [
+          "/images/services/web-design-1.jpg",
+          "/images/services/web-design-2.jpg",
+          "/images/services/web-design-3.jpg",
+          "/images/services/web-design-4.jpg",
+          "/images/services/web-design-5.jpg"
+        ]
+      },
+      {
+        "id": "hosting",
+        "title": "Hosting & Domains",
+        "description": "Reliable, fast hosting solutions with 99.9% uptime guarantees. We handle your technical infrastructure so you can focus on growing your business.",
+        "images": [
+          "/images/services/hosting-1.jpg",
+          "/images/services/hosting-2.jpg",
+          "/images/services/hosting-3.jpg",
+          "/images/services/hosting-4.jpg",
+          "/images/services/hosting-5.jpg"
+        ]
+      },
+      {
+        "id": "branding",
+        "title": "Visual Identity & Logos",
+        "description": "Distinctive brand identities that tell your story and make you unforgettable. From logo design to complete brand systems that stand out in any universe.",
+        "images": [
+          "/images/services/branding-1.jpg",
+          "/images/services/branding-2.jpg",
+          "/images/services/branding-3.jpg",
+          "/images/services/branding-4.jpg",
+          "/images/services/branding-5.jpg"
+        ]
+      },
+      {
+        "id": "subscriptions",
+        "title": "Subscription Payments",
+        "description": "We handle all your digital subscription payments — Adobe, Figma, ChatGPT and more. Save time and get the best tools at the right price, hassle-free.",
+        "images": [
+          "/images/services/subscriptions-1.jpg",
+          "/images/services/subscriptions-2.jpg",
+          "/images/services/subscriptions-3.jpg",
+          "/images/services/subscriptions-4.jpg",
+          "/images/services/subscriptions-5.jpg"
+        ]
+      },
+      {
+        "id": "marketing",
+        "title": "Digital Marketing",
+        "description": "Full-spectrum digital marketing — from Meta and Google ad campaign management to SEO optimization and social media management that drives real growth.",
+        "images": [
+          "/images/services/marketing-1.jpg",
+          "/images/services/marketing-2.jpg",
+          "/images/services/marketing-3.jpg",
+          "/images/services/marketing-4.jpg",
+          "/images/services/marketing-5.jpg"
+        ]
+      }
+    ]
+  },
+  "about": {
+    "badge": "About UniVerse",
+    "title": "We Are The Agency That",
+    "titleHighlight": "Thinks Beyond",
+    "description1": "UniVerse is a full-service digital agency born from a passion for pushing creative and technological boundaries. We don't just build websites and apps — we architect digital ecosystems that drive real business growth.",
+    "description2": "Our team of designers, developers, and strategists work in perfect harmony to deliver solutions that are not only visually spectacular but strategically sound. Every project is a new universe waiting to be explored.",
+    "stats": [
+      { "value": "150+", "label": "Projects Completed" },
+      { "value": "50+", "label": "Happy Clients" },
+      { "value": "5+", "label": "Years of Excellence" },
+      { "value": "15+", "label": "Team Members" }
+    ]
+  },
+  "contact": {
+    "badge": "Start a Project",
+    "title": "Let's Build Your",
+    "titleHighlight": "Universe",
+    "subtitle": "Ready to launch your digital presence into a new dimension? Let's talk about your vision and create something extraordinary together.",
+    "form": {
+      "name": "Your Name",
+      "email": "Email Address",
+      "message": "Your Message",
+      "submit": "Send Message",
+      "namePlaceholder": "John Doe",
+      "emailPlaceholder": "john@example.com",
+      "messagePlaceholder": "Tell us about your project..."
+    }
+  },
+  "footer": {
+    "tagline": "Crafting digital universes, one pixel at a time.",
+    "copyright": "© 2024 UniVerse Agency. All rights reserved.",
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    }
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "nav": {
+    "logo": "يونيفرس",
+    "home": "الرئيسية",
+    "services": "خدماتنا",
+    "about": "من نحن",
+    "contact": "تواصل معنا",
+    "langSwitch": "EN"
+  },
+  "hero": {
+    "badge": "وكالة الابتكار الرقمي",
+    "title": "نبني عوالم",
+    "titleHighlight": "رقمية لامحدودة",
+    "subtitle": "نصنع تجارب رقمية غامرة تُطلق علاماتك التجارية إلى مدارات جديدة. من تصاميم تطبيقات رائعة إلى حلول ويب متطورة — نحوّل رؤيتك إلى واقع كوني ساحر.",
+    "ctaPrimary": "استكشف أعمالنا",
+    "ctaSecondary": "تواصل معنا"
+  },
+  "services": {
+    "title": "ما نقدمه",
+    "subtitle": "نقدم حلولاً رقمية متكاملة تُحوّل الأعمال وترفع تجارب المستخدمين إلى آفاق جديدة.",
+    "items": [
+      {
+        "id": "app-design",
+        "title": "تصميم التطبيقات",
+        "description": "واجهات موبايل مذهلة تأسر المستخدمين من أول لمسة. نصمم تجارب iOS وAndroid تجمع بين الجمال والوظائف البديهية السلسة.",
+        "images": [
+          "/images/services/app-design-1.jpg",
+          "/images/services/app-design-2.jpg",
+          "/images/services/app-design-3.jpg",
+          "/images/services/app-design-4.jpg",
+          "/images/services/app-design-5.jpg"
+        ]
+      },
+      {
+        "id": "web-design",
+        "title": "تصميم المواقع",
+        "description": "مواقع إلكترونية تجمع بين الجماليات الرائعة والأداء السلس. نبني مواقع متجاوبة وسريعة التحميل تحوّل الزوار إلى عملاء دائمين.",
+        "images": [
+          "/images/services/web-design-1.jpg",
+          "/images/services/web-design-2.jpg",
+          "/images/services/web-design-3.jpg",
+          "/images/services/web-design-4.jpg",
+          "/images/services/web-design-5.jpg"
+        ]
+      },
+      {
+        "id": "hosting",
+        "title": "الاستضافة والنطاقات",
+        "description": "حلول استضافة موثوقة وسريعة مع ضمان 99.9% وقت تشغيل. نتولى بنيتك التحتية التقنية لتتفرغ لتنمية أعمالك.",
+        "images": [
+          "/images/services/hosting-1.jpg",
+          "/images/services/hosting-2.jpg",
+          "/images/services/hosting-3.jpg",
+          "/images/services/hosting-4.jpg",
+          "/images/services/hosting-5.jpg"
+        ]
+      },
+      {
+        "id": "branding",
+        "title": "الهوية البصرية والشعارات",
+        "description": "هويات تجارية مميزة تروي قصتك وتجعلك لا يُنسى. من تصميم الشعار إلى أنظمة العلامة التجارية الكاملة التي تتألق في كل كون.",
+        "images": [
+          "/images/services/branding-1.jpg",
+          "/images/services/branding-2.jpg",
+          "/images/services/branding-3.jpg",
+          "/images/services/branding-4.jpg",
+          "/images/services/branding-5.jpg"
+        ]
+      },
+      {
+        "id": "subscriptions",
+        "title": "دفع الاشتراكات",
+        "description": "نتكفّل بدفع جميع اشتراكاتك الرقمية نيابةً عنك — من Adobe وFigma إلى ChatGPT وغيرها. وفّر وقتك واحصل على أفضل الأدوات بأسعار مناسبة.",
+        "images": [
+          "/images/services/subscriptions-1.jpg",
+          "/images/services/subscriptions-2.jpg",
+          "/images/services/subscriptions-3.jpg",
+          "/images/services/subscriptions-4.jpg",
+          "/images/services/subscriptions-5.jpg"
+        ]
+      },
+      {
+        "id": "marketing",
+        "title": "التسويق الإلكتروني",
+        "description": "استراتيجيات تسويق رقمي شاملة من إدارة حملات إعلانية على Meta وGoogle إلى تحسين محركات البحث وإدارة منصات التواصل الاجتماعي.",
+        "images": [
+          "/images/services/marketing-1.jpg",
+          "/images/services/marketing-2.jpg",
+          "/images/services/marketing-3.jpg",
+          "/images/services/marketing-4.jpg",
+          "/images/services/marketing-5.jpg"
+        ]
+      }
+    ]
+  },
+  "about": {
+    "badge": "عن يونيفرس",
+    "title": "نحن الوكالة التي",
+    "titleHighlight": "تفكر بلا حدود",
+    "description1": "يونيفرس وكالة رقمية متكاملة وُلدت من شغف دفع الحدود الإبداعية والتكنولوجية. نحن لا نبني مواقع وتطبيقات فحسب — نحن نُعمّر منظومات رقمية تدفع النمو الحقيقي للأعمال.",
+    "description2": "يعمل فريقنا من المصممين والمطورين والاستراتيجيين في تناغم تام لتقديم حلول مبهرة بصرياً وسليمة استراتيجياً. كل مشروع هو كون جديد ينتظر الاستكشاف.",
+    "stats": [
+      { "value": "+150", "label": "مشروع مكتمل" },
+      { "value": "+50", "label": "عميل سعيد" },
+      { "value": "+5", "label": "سنوات من التميز" },
+      { "value": "+15", "label": "عضو في الفريق" }
+    ]
+  },
+  "contact": {
+    "badge": "ابدأ مشروعك",
+    "title": "لنبني معاً",
+    "titleHighlight": "كونك الرقمي",
+    "subtitle": "مستعد لإطلاق حضورك الرقمي في بُعد جديد؟ دعنا نتحدث عن رؤيتك ونصنع شيئاً استثنائياً معاً.",
+    "form": {
+      "name": "اسمك",
+      "email": "البريد الإلكتروني",
+      "message": "رسالتك",
+      "submit": "إرسال الرسالة",
+      "namePlaceholder": "محمد أحمد",
+      "emailPlaceholder": "mohammed@example.com",
+      "messagePlaceholder": "أخبرنا عن مشروعك..."
+    }
+  },
+  "footer": {
+    "tagline": "نصنع عوالم رقمية، بيكسل تلو بيكسل.",
+    "copyright": "© 2024 وكالة يونيفرس. جميع الحقوق محفوظة.",
+    "links": {
+      "privacy": "سياسة الخصوصية",
+      "terms": "شروط الخدمة"
+    }
+  }
+}
