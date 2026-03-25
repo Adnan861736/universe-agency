@@ -12,14 +12,19 @@
 const withNextIntl = require('next-intl/plugin')('./i18n.ts');
 
 /** @type {import('next').NextConfig} */
+const BASE_PATH = '/universe-agency';
+
 const nextConfig = {
   output: 'export',
   trailingSlash: true,
   images: {
     unoptimized: true,
   },
-  basePath: '/universe-agency',
-  assetPrefix: '/universe-agency',
+  basePath: BASE_PATH,
+  assetPrefix: BASE_PATH,
+  env: {
+    NEXT_PUBLIC_BASE_PATH: BASE_PATH,
+  },
 };
 
 module.exports = withNextIntl(nextConfig);

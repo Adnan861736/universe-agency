@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import Image from 'next/image';
+const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
 
 interface ServiceCardProps {
   title: string;
@@ -65,14 +65,11 @@ export function ServiceCard({ title, description, images, icon, accentGradient }
             transition={{ duration: 0.45, ease: 'easeInOut' }}
             className="absolute inset-0"
           >
-            <Image
-              src={images[activeIdx]}
+            <img
+              src={`${BASE}${images[activeIdx]}`}
               alt={`${title} ${activeIdx + 1}`}
-              width={600}
-              height={400}
-              style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+              className="w-full h-full object-cover"
               draggable={false}
-              unoptimized
             />
           </motion.div>
         </AnimatePresence>
