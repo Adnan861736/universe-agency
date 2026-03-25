@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { Inter, Cairo } from 'next/font/google';
 import { setRequestLocale, getMessages } from 'next-intl/server';
 import { NextIntlClientProvider } from 'next-intl';
 import { ThemeProvider } from '@/components/providers/ThemeProvider';
@@ -6,6 +7,18 @@ import { Navbar } from '@/components/layout/Navbar';
 import { Footer } from '@/components/layout/Footer';
 import { locales, type Locale } from '../../../i18n';
 import '../globals.css';
+
+const inter = Inter({
+  subsets: ['latin'],
+  variable: '--font-inter',
+  display: 'swap',
+});
+
+const cairo = Cairo({
+  subsets: ['arabic'],
+  variable: '--font-cairo',
+  display: 'swap',
+});
 
 export const metadata: Metadata = {
   title: 'UniVerse Agency — Digital Innovation',
@@ -39,17 +52,9 @@ export default async function LocaleLayout({ children, params: { locale } }: Loc
     <html
       lang={locale}
       dir={isRTL ? 'rtl' : 'ltr'}
-      className="dark"
+      className={`dark ${inter.variable} ${cairo.variable}`}
       suppressHydrationWarning
     >
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Cairo:wght@300;400;500;600;700;800;900&display=swap"
-          rel="stylesheet"
-        />
-      </head>
       <body className="bg-[#0a0a0f] text-white antialiased">
         <ThemeProvider>
           <NextIntlClientProvider messages={messages} locale={locale}>
