@@ -50,6 +50,11 @@ export function ServiceCard({ title, description, images, icon, accentGradient }
       {/* ══════════ IMAGE AREA ══════════ */}
       <div className="relative h-56 sm:h-52 lg:h-48 xl:h-56 overflow-hidden flex-shrink-0">
 
+        {/* Preload all images silently */}
+        {images.map((src, i) => (
+          <img key={i} src={`${BASE}${src}`} alt="" aria-hidden="true" style={{ display: 'none' }} />
+        ))}
+
         {/* Gradient fallback background */}
         <div className={`absolute inset-0 bg-gradient-to-br ${accentGradient} opacity-70`} />
 
@@ -70,6 +75,7 @@ export function ServiceCard({ title, description, images, icon, accentGradient }
               alt={`${title} ${activeIdx + 1}`}
               className="w-full h-full object-cover"
               draggable={false}
+              decoding="async"
             />
           </motion.div>
         </AnimatePresence>
