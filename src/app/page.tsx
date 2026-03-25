@@ -1,25 +1,26 @@
 'use client';
 
 import { useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 
 export default function RootPage() {
+  const router = useRouter();
+
   useEffect(() => {
     const browserLang = navigator.language || 'en';
     const targetLocale = browserLang.startsWith('ar') ? 'ar' : 'en';
-    window.location.replace(`/${targetLocale}/`);
-  }, []);
+    // useRouter respects basePath automatically
+    router.replace(`/${targetLocale}/`);
+  }, [router]);
 
   return (
     <div
       style={{
-        margin: 0,
         minHeight: '100vh',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
         background: '#0a0a0f',
-        color: '#fff',
-        fontFamily: 'Inter, system-ui, sans-serif',
       }}
     >
       <div style={{ textAlign: 'center' }}>
@@ -34,7 +35,9 @@ export default function RootPage() {
             margin: '0 auto 16px',
           }}
         />
-        <p style={{ color: '#a78bfa', fontSize: 14 }}>Loading UniVerse...</p>
+        <p style={{ color: '#a78bfa', fontSize: 14, fontFamily: 'Inter, system-ui, sans-serif' }}>
+          Loading UniVerse...
+        </p>
         <style>{`@keyframes spin { to { transform: rotate(360deg); } }`}</style>
       </div>
     </div>
