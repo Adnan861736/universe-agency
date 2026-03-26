@@ -57,9 +57,12 @@ export function Navbar({ locale }: NavbarProps) {
 
           {/* Logo */}
           <Link href={`/${locale}/`} className="flex-shrink-0 select-none">
-            <span className="text-xl md:text-2xl font-black bg-clip-text text-transparent bg-gradient-to-r from-violet-400 to-blue-400">
-              {t('logo')}
-            </span>
+            <img
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ''}/logo.png`}
+              alt="يونيفرس"
+              className="h-24 md:h-28 w-auto object-contain"
+              draggable={false}
+            />
           </Link>
 
           {/* Desktop nav links */}
